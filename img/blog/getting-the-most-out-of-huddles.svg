@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6fbf7"/>
+      <stop offset="100%" stop-color="#bdf3ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky3)"/>
+  <circle cx="1360" cy="170" r="90" fill="#f59e0b" opacity="0.85"/>
+
+  <path d="M0,640 Q400,560 800,620 T1600,580 V900 H0 Z" fill="#5addcd" opacity="0.5"/>
+  <path d="M0,900 V720 Q400,650 800,700 T1600,680 V900 Z" fill="#16c8b5"/>
+
+  <!-- central flag / meeting point -->
+  <g transform="translate(800,560)">
+    <line x1="0" y1="0" x2="0" y2="-140" stroke="#4b5563" stroke-width="8"/>
+    <path d="M0,-140 L70,-118 L0,-96 Z" fill="#fb923c"/>
+    <ellipse cx="0" cy="2" rx="34" ry="10" fill="#0f877a" opacity="0.35"/>
+  </g>
+
+  <!-- people gathered around (simple avatar dots with connecting lines) -->
+  <g stroke="#0f877a" stroke-width="4" opacity="0.55">
+    <line x1="800" y1="540" x2="560" y2="640"/>
+    <line x1="800" y1="540" x2="1040" y2="640"/>
+    <line x1="800" y1="540" x2="420" y2="500"/>
+    <line x1="800" y1="540" x2="1180" y2="490"/>
+  </g>
+
+  <g>
+    <circle cx="560" cy="640" r="34" fill="#14b8a6"/>
+    <circle cx="560" cy="612" r="16" fill="#4b5563"/>
+  </g>
+  <g>
+    <circle cx="1040" cy="640" r="34" fill="#f59e0b"/>
+    <circle cx="1040" cy="612" r="16" fill="#4b5563"/>
+  </g>
+  <g>
+    <circle cx="420" cy="500" r="30" fill="#16c8b5"/>
+    <circle cx="420" cy="474" r="14" fill="#4b5563"/>
+  </g>
+  <g>
+    <circle cx="1180" cy="490" r="30" fill="#fb923c"/>
+    <circle cx="1180" cy="464" r="14" fill="#4b5563"/>
+  </g>
+</svg>

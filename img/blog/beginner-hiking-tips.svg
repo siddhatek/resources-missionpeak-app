@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6fbf7"/>
+      <stop offset="100%" stop-color="#bdf3ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky1)"/>
+  <circle cx="1300" cy="200" r="110" fill="#f59e0b" opacity="0.9"/>
+  <circle cx="1300" cy="200" r="150" fill="#f59e0b" opacity="0.15"/>
+
+  <!-- far hills -->
+  <path d="M0,560 Q300,460 650,540 T1600,500 V900 H0 Z" fill="#5addcd" opacity="0.55"/>
+  <!-- mid hill / mountain -->
+  <path d="M150,900 L520,330 L760,560 L980,300 L1280,900 Z" fill="#16c8b5"/>
+  <path d="M520,330 L630,460 L450,470 Z" fill="#ffffff" opacity="0.85"/>
+  <path d="M980,300 L1060,420 L900,430 Z" fill="#ffffff" opacity="0.85"/>
+  <!-- foreground hill -->
+  <path d="M0,900 V680 Q400,580 800,660 T1600,640 V900 Z" fill="#0f877a"/>
+
+  <!-- winding trail -->
+  <path d="M250,900 C400,760 350,650 520,560 C680,480 650,400 760,330"
+        fill="none" stroke="#fef3c7" stroke-width="14" stroke-linecap="round" stroke-dasharray="2 26"/>
+
+  <!-- hiker figure -->
+  <g transform="translate(700,470)">
+    <circle cx="0" cy="-58" r="16" fill="#4b5563"/>
+    <rect x="-16" y="-20" width="20" height="20" rx="6" fill="#14b8a6"/>
+    <path d="M-14,-40 L4,-40 L4,-18 L-14,-18 Z" fill="#0f877a"/>
+    <line x1="-12" y1="0" x2="-22" y2="40" stroke="#4b5563" stroke-width="8" stroke-linecap="round"/>
+    <line x1="2" y1="0" x2="14" y2="40" stroke="#4b5563" stroke-width="8" stroke-linecap="round"/>
+    <line x1="-14" y1="-30" x2="-30" y2="-6" stroke="#4b5563" stroke-width="7" stroke-linecap="round"/>
+    <line x1="2" y1="-30" x2="20" y2="-10" stroke="#4b5563" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- summit flag -->
+  <g transform="translate(760,330)">
+    <line x1="0" y1="0" x2="0" y2="-60" stroke="#4b5563" stroke-width="6"/>
+    <path d="M0,-60 L40,-48 L0,-36 Z" fill="#fb923c"/>
+  </g>
+</svg>

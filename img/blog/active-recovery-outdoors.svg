@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6fbf7"/>
+      <stop offset="100%" stop-color="#bdf3ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky5)"/>
+  <circle cx="1320" cy="200" r="100" fill="#f59e0b" opacity="0.85"/>
+  <circle cx="1320" cy="200" r="140" fill="#f59e0b" opacity="0.12"/>
+
+  <path d="M0,600 Q400,520 800,580 T1600,540 V900 H0 Z" fill="#5addcd" opacity="0.5"/>
+  <path d="M0,900 V700 Q400,630 800,680 T1600,660 V900 Z" fill="#16c8b5"/>
+
+  <!-- mat -->
+  <ellipse cx="780" cy="700" rx="220" ry="34" fill="#0f877a" opacity="0.5"/>
+  <rect x="600" y="668" width="360" height="40" rx="20" fill="#ffffff" opacity="0.85"/>
+
+  <!-- stretching figure (seated forward fold) -->
+  <g transform="translate(780,660)">
+    <circle cx="-90" cy="-30" r="20" fill="#4b5563"/>
+    <path d="M-90,-10 Q-40,10 20,0" fill="none" stroke="#14b8a6" stroke-width="16" stroke-linecap="round"/>
+    <path d="M20,0 Q70,-10 100,-40" fill="none" stroke="#14b8a6" stroke-width="14" stroke-linecap="round"/>
+    <line x1="-90" y1="-10" x2="-150" y2="10" stroke="#4b5563" stroke-width="10" stroke-linecap="round"/>
+    <line x1="-150" y1="10" x2="-110" y2="40" stroke="#4b5563" stroke-width="10" stroke-linecap="round"/>
+    <line x1="100" y1="-40" x2="60" y2="20" stroke="#4b5563" stroke-width="10" stroke-linecap="round"/>
+    <line x1="60" y1="20" x2="100" y2="40" stroke="#4b5563" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- soft breeze / calm lines -->
+  <g stroke="#0f877a" stroke-width="5" stroke-linecap="round" opacity="0.4">
+    <path d="M1000,420 Q1040,410 1080,420" fill="none"/>
+    <path d="M1020,460 Q1060,450 1100,460" fill="none"/>
+  </g>
+</svg>

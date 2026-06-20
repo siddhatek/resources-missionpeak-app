@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eafaf6"/>
+      <stop offset="100%" stop-color="#cdf2e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky4)"/>
+  <circle cx="250" cy="180" r="85" fill="#f59e0b" opacity="0.85"/>
+
+  <path d="M0,640 Q400,560 800,620 T1600,580 V900 H0 Z" fill="#5addcd" opacity="0.45"/>
+  <path d="M0,900 V740 Q400,680 800,720 T1600,700 V900 Z" fill="#16c8b5"/>
+
+  <!-- backpack -->
+  <g transform="translate(800,560)">
+    <rect x="-110" y="-40" width="220" height="260" rx="50" fill="#14b8a6"/>
+    <rect x="-70" y="-90" width="140" height="80" rx="30" fill="#0f877a"/>
+    <rect x="-90" y="-10" width="180" height="120" rx="24" fill="#16c8b5"/>
+    <rect x="-16" y="-100" width="32" height="40" rx="10" fill="#4b5563"/>
+    <line x1="-110" y1="40" x2="-150" y2="180" stroke="#0f877a" stroke-width="14" stroke-linecap="round"/>
+    <line x1="110" y1="40" x2="150" y2="180" stroke="#0f877a" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <!-- gear icons floating around backpack -->
+  <g transform="translate(480,470)">
+    <rect x="-16" y="-40" width="32" height="80" rx="14" fill="#fb923c"/>
+    <rect x="-10" y="-52" width="20" height="16" rx="4" fill="#4b5563"/>
+  </g>
+
+  <g transform="translate(1120,500)">
+    <circle r="42" fill="#ffffff" stroke="#0f877a" stroke-width="6"/>
+    <line x1="0" y1="0" x2="0" y2="-26" stroke="#0f877a" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="18" y2="10" stroke="#0f877a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(1080,680)">
+    <rect x="-30" y="-22" width="60" height="44" rx="8" fill="#ffffff" stroke="#fb923c" stroke-width="6"/>
+    <line x1="-14" y1="0" x2="14" y2="0" stroke="#fb923c" stroke-width="6"/>
+    <line x1="0" y1="-14" x2="0" y2="14" stroke="#fb923c" stroke-width="6"/>
+  </g>
+
+  <g transform="translate(500,700)">
+    <rect x="-26" y="-50" width="52" height="100" rx="16" fill="#ffffff" stroke="#14b8a6" stroke-width="6"/>
+    <rect x="-14" y="-62" width="28" height="18" rx="6" fill="#14b8a6"/>
+  </g>
+</svg>
